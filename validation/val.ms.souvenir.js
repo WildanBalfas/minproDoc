@@ -2,7 +2,7 @@ db.createCollection("m_souvenir", {
    validator: {
       $jsonSchema: {
          bsonType: "object",
-         required: [ "code", "name", "m_unit_id"],
+         required: [ "code", "name"],
          properties: {
             code: {
                bsonType: "string",
@@ -15,11 +15,6 @@ db.createCollection("m_souvenir", {
             description: {
                bsonType: "string",
                description: "must be a string and is not required"
-    		   
-            },
-            m_unit_id: {
-               bsonType: "objectId",
-    		   description: "must be a string and is required"
             }
          }
       }

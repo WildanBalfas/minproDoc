@@ -19,7 +19,8 @@ db.createCollection("m_company", {
              },
              email: {
                 bsonType: "string",
-                pattern: "^[0-9-()]*$"
+                pattern: ".+\@.+\..+",
+                description: "not required"
              }
           }
        }
