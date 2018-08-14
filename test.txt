@@ -1,0 +1,13 @@
+ Volume in drive D is Data
+ Volume Serial Number is DE74-12B2
+
+ Directory of D:\Batch 156\Mini_Project\minproDoc
+
+14-Aug-18  05:16 PM    <DIR>          .
+14-Aug-18  05:16 PM    <DIR>          ..
+07-Aug-18  05:23 PM             1,078 LICENSE
+07-Aug-18  05:23 PM                48 README.md
+14-Aug-18  05:16 PM                 0 test.txt
+08-Aug-18  09:59 AM    <DIR>          validation
+               3 File(s)          1,126 bytes
+               3 Dir(s)  173,775,908,864 bytes free
